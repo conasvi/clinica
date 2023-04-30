@@ -20,7 +20,7 @@ telefonoPaciente:document.getElementById("telefono").value,
 guardarCookies(datosPaciente)
 const confirmacion=confirm("¿desea ver los datos ?")
     if (confirmacion==true) {
-        window.location.href="medicos.html";
+        window.location.href="pacientes.html";
     }else{
         formularioPaciente.reset ();
     }

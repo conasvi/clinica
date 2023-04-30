@@ -1,9 +1,13 @@
 *{
-    margin:0;
-    padding:0;
-}body{
+    padding: 0;
+    margin: 0;
+}
+body{
     background:linear-gradient(90deg,blue,white);
 }
+
+
+
 header{
     text-align:center ;
     font-family:fantasy;
@@ -14,44 +18,15 @@ header{
     border: 5px solid rgb(0, 30, 128);
     width:90%;
     margin-top: 40px;
-}h2{
-    text-align:center ;
-    padding: 30px;
-    border: 5px solid black;
-    
-   
-}main {
-    max-width: 500px;
-    margin: auto;
-}
 
-table {
-    border-collapse: collapse;
-    width: 100%;
-    font-size: 16px;
-    font-family: sans-serif;
-}
-
-.contenedor-tabla{
-    max-width: 80%;
-}
-
-th,td{
-    padding:20px;
-    border:5px solid rgb(25, 17, 146);
-    text-transform: uppercase;
-    
-
-}td{
-    color:black;
-}
-nav{
+}nav{
     border: 5px solid rgb(0, 30, 128);
     background:rgb(50, 148, 205);
-    margin:20px 80px ;
-    padding:20px;
-    
-}.boton{
+    margin:20px 90px ;
+    padding:20px;       
+}
+
+.boton{
     display:inline-block;
     align-items: center;
     background-color:rgb(46, 156, 207);
@@ -64,5 +39,13 @@ nav{
 }a{
     color:white;
     text-decoration: none;
+}
+div{
+    display: flex;
+    justify-content: center;
+
+}img{
+
+opacity:.8;
     
 }
