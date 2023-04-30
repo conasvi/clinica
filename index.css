@@ -23,7 +23,8 @@ header{
     border: 5px solid rgb(0, 30, 128);
     background:rgb(50, 148, 205);
     margin:20px 90px ;
-    padding:20px;       
+    padding:10px;  
+    width:90%;     
 }
 
 .boton{
@@ -35,7 +36,7 @@ header{
     padding: 15px 32px;
     font-weight: bold;
     cursor: pointer;
-    margin: 0 50px;
+    margin: 0 5px;
 }a{
     color:white;
     text-decoration: none;
@@ -47,5 +48,7 @@ div{
 }img{
 
 opacity:.8;
+width:45%;
     
 }
+

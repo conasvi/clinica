@@ -2,14 +2,14 @@
     margin:0;
     padding: 0;
     }
-body{
+    body{
         background:linear-gradient(180deg,blue,white);
     }
 .container{
     background: #fff;
     width: 90%;
     max-width: 900px;
-    margin: 20px 320px;
+    margin: 5px 120px;
     
     display: grid;
     gap: 2px;
@@ -18,7 +18,7 @@ body{
 form{
     border: 5px solid rebeccapurple;
     background-color:lightslategray;
-    height: 610px;
+    height: 460px;
     color:white;
     text-transform: uppercase;
 
@@ -27,22 +27,20 @@ form{
 header{
 text-align:center ;
 font-family:fantasy;
-font-size: 2em;
-background:rgb(50, 148, 205);
-margin: 20px 209px 0px 316px;
-padding: 20px;
+font-size: 1.4em;
+background: rgb(50, 148, 205);
+margin: 5px 125px;
+padding: 5px;
 border: 5px solid rgb(0, 30, 128);
-
+width:78%;
     
 
 }
-h2{
- text-align:center;
- margin-bottom: 20px;
-}
+
+
 label {
     display: block;
-    margin-bottom: 5px;
+    margin-bottom: 3px;
     font-weight: bold;
     font-size: fantasy;
     text-align: center;
@@ -57,40 +55,50 @@ label {
 }
 input{
     width: 90%;
-    padding: 10px;
-    margin:10px;
+    padding: 5px;
+    margin:8px;
     border-radius: 10px;
     text-align:center;
     text-transform:uppercase;
 }
 select{
-    width: 90%;
+    width: 95%;
     margin:10px;
     font-size: 1.1em;
     text-align: center;
 
 
 }img{
-    width:720px;
-    height: 620px;
+    width:545px;
+    height: 470px;
 }nav{
     border: 5px solid rgb(0, 30, 128);
     background:rgb(50, 148, 205);
-    margin:20px 209px 0px 316px;
-    padding:20px;       
+    margin:5px 229px 0px 120px;
+    padding:20px;  
+    width:76%;
+         
 }
 
 .boton{
     display:inline-block;
     align-items: center;
     background-color:rgb(46, 156, 207);
-    font-size: 18px;
+    font-size: 16px;
     text-align: center;
-    padding: 15px 30px;
+    padding: 15px 32px;
     font-weight: bold;
     cursor: pointer;
-    margin: 0 20px;
+    margin: 0 5px;
 }a{
     color:white;
     text-decoration: none;
+}@media screen and (max-width:768px){
+    header{
+        width:94%;
+    }
+
+}
+nav,.boton{
+  font-size:1.2 em ;
 }
